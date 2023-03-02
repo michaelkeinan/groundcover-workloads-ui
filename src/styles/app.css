@@ -1,0 +1,35 @@
+:root {
+    /* colors */
+      --color-white: #FFFFFF;
+      --background-gray: #F3F2EF;
+      --color-black-text: #333333;
+    }
+  
+  html {
+    font-size: 10px;
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Lato';
+    height: 100%;
+    width: 100%;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;;
+    letter-spacing: normal;
+    color: var(--color-black-text);
+    background-color: var(--background-gray);
+    font-size: 2rem;
+    background-image: url(../assets/background3.png);
+  }
+  
+  .cursor-pointer {
+    cursor: pointer;
+  }
